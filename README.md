@@ -100,17 +100,17 @@ Telegram: https://t.me/PancakePredictionKnn
 The Config is listed in `Config\AppConfig.json` like bellow:
 ```
 {
-  "faildCount": 7,							//Log for faild count.
-  "betAmountInBNB": 0.1,					//init amount to bet in BNB.
-  "AutoBet": false,							//Enable auto bet
+  "faildCount": 7,					//Log for faild count.
+  "betAmountInBNB": 0.1,				//init amount to bet in BNB.
+  "AutoBet": false,					//Enable auto bet
   "Proxy": "http://127.0.0.1:7890",			//It can set to ""
   "DbServerName": "127.0.0.1,1433",			//If will enable KNN if you set this value, default is null or empty("")
-  "dbName": "StockData",					//Db name for KNN, must be "StockData"
+  "dbName": "StockData",				//Db name for KNN, must be "StockData"
   "dbUser": "stockdataUser",				//Your db user
-  "dbPassword": "stockdataUserPassword",	//Your db user's password
+  "dbPassword": "stockdataUserPassword",		//Your db user's password
   "websocketNode": "wss://speedy-nodes-nyc.moralis.io/cde6a7978ca113c11c427bc5/bsc/mainnet/ws",		//If you want to use WS then set it otherwise leave it
   "wallletPrivateKey": "0x118e6050ccb1d2c03dbe71e340be74f4371a639afe6f0d1bbb9d288fdcf639d2",		//Your walllet private key
-  "rpc_Endpoint": "https://bsc-dataseed.binance.org/"												//You can change it if you have better node
+  "rpc_Endpoint": "https://bsc-dataseed.binance.org/"								//You can change it if you have better node
 }
 ```
 
