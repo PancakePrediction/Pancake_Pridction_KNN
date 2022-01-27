@@ -1,0 +1,13 @@
+{
+  "faildCount": 7,
+  "betAmountInBNB": 0.1,
+  "AutoBet": false,
+  "Proxy": "http://127.0.0.1:7890",
+  "DbServerName": "127.0.0.1,1433",
+  "dbName": "StockData",
+  "dbUser": "stockdataUser",
+  "dbPassword": "stockdataUserPassword",
+  "websocketNode": "wss://speedy-nodes-nyc.moralis.io/cde6a7978ca113c11c427bc5/bsc/mainnet/ws",
+  "wallletPrivateKey": "0x118e6050ccb1d2c03dbe71e340be74f4371a639afe6f0d1bbb9d288fdcf639d2",
+  "rpc_Endpoint": "https://bsc-dataseed.binance.org/"
+}
