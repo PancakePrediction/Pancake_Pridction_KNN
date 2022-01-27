@@ -94,9 +94,10 @@ GO
 
 
 ## Socials
-Telegram: https://t.me/PancakePrediction
+Telegram: https://t.me/PancakePredictionKnn
 
 ## Config
+```
 The Config is listed in `Config\AppConfig.json` like bellow:
 {
   "faildCount": 7,							//Log for faild count.
@@ -111,6 +112,7 @@ The Config is listed in `Config\AppConfig.json` like bellow:
   "wallletPrivateKey": "0x118e6050ccb1d2c03dbe71e340be74f4371a639afe6f0d1bbb9d288fdcf639d2",		//Your walllet private key
   "rpc_Endpoint": "https://bsc-dataseed.binance.org/"												//You can change it if you have better node
 }
+```
 
 ### Recommand Bsc Node and Http Api
 You can get a better node for quick bet and lessing data delay.
@@ -124,3 +126,8 @@ If you want to run the project you can go to [releases](https://github.com/Panca
 ## About KNN 
 1. the K value 26 will be a good one.(Success 61.33%; Max Serial lost: 5)
 2. More samples will make its predictions more accurate.
+
+## Warrning
+1. It's a gambling-like game, if you can't control your greed, you'll go broke.
+2. I went from 0.5 BNB to 7 BNB in 1 day through this game. 
+3. But I went from 70 BNB to 0.01 BNB in half day.
