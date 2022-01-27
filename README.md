@@ -97,8 +97,8 @@ GO
 Telegram: https://t.me/PancakePredictionKnn
 
 ## Config
-```
 The Config is listed in `Config\AppConfig.json` like bellow:
+```
 {
   "faildCount": 7,							//Log for faild count.
   "betAmountInBNB": 0.1,					//init amount to bet in BNB.
@@ -124,7 +124,7 @@ https://www.quicknode.com/
 If you want to run the project you can go to [releases](https://github.com/PancakePrediction/Pancake_Pridction_KNN/releases) and a binary that will execute on your OS.
 
 ## About KNN 
-1. the K value 26 will be a good one.(Success 61.33%; Max Serial lost: 5)
+1. the K value 26 will be a good one.(Success 61.33%; Max Serial lost: 5, samples: 2000)
 2. More samples will make its predictions more accurate.
 
 ## Warrning
